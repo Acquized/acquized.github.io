@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^paste.acquized.pw
+RewriteRule ^(.*)$ http://acquized.github.io/paste/$1 [L,NC,QSA]
